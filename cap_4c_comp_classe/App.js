@@ -7,7 +7,7 @@ import Estilos from './estilos/Estilos';
 export default function App() {
   return (
     <View style={styles.container}>
-      <OlaMundo nome='Leitor!'/>
+      <OlaMundo nome='Soso Linda!'/>
       <StatusBar style="auto" />
     </View>
   );
