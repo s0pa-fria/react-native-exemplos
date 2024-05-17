@@ -2,17 +2,21 @@ import React from 'react';
 import { View, Text, TextInput, StyleSheet } from 'react-native';
 
 class Evento extends React.Component {
-    state = {
-        input: 'O React Native é uma brincadira que eu não sei as regras.'
-    }
+        // state = {
+        // input: ''
+        // }
 
-    render() {
-        return (
-            <View style={estilos.container}>
-                <TextInput
-                style={estilos.input}
-                value={this.state.input}
-                onChangeText={text => this.setState({ input: text })}
+        state = {
+        input: 'O React Native é demais!!'
+        }
+
+        render() {
+            return (
+                <View style={estilos.container}>
+                    <TextInput
+                    style={estilos.input}
+                    value={this.state.input}
+                    onChangeText={text => this.setState({ input: text })}
                 />
             </View>
         )
@@ -29,12 +33,12 @@ const estilos = StyleSheet.create({
     input: {
         height: 50,
         width: 300,
-        fontSize: 30,
+        fontSize: 26,
         borderWidth: 1,
         borderColor: 'black',
     },
     font30: {
-        
+        fontSize: 30
     }
 });
 
