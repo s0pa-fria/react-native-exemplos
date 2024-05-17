@@ -1,3 +1,7 @@
+## Versão (Componente Funcional - Atual)
+
+## Versão (Componente de Classe)
+
 import React from 'react';
 import {View, Text} from 'react-native';
 
