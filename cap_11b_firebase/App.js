@@ -4,6 +4,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import AdicionaItens from "./components/AdicionaItens";
 import ListarItens from "./components/ListarItens";
+
 function Inicial({ navigation }) {
   return (
     <View style={estilos.container}>
